@@ -1,0 +1,100 @@
+# ============================
+# Composer Dependencies
+# ============================
+/vendor/
+
+# ============================
+# Node.js Dependencies
+# ============================
+/node_modules/
+
+# ============================
+# Environment Variables
+# ============================
+.env
+.env.*
+!.env.example
+
+# ============================
+# Stripe / Secret Config Files
+# ============================
+config/stripe.local.php
+config/local.php
+
+# ============================
+# Composer
+# ============================
+composer.phar
+
+# ============================
+# IDE / Editor
+# ============================
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+
+# ============================
+# Operating System Files
+# ============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+._*
+
+# ============================
+# Logs
+# ============================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================
+# Temporary Files
+# ============================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ============================
+# Database
+# ============================
+*.sqlite
+*.db
+
+# SQL Dumps (optional)
+*.sql
+
+# ============================
+# Cache
+# ============================
+.cache/
+tmp/
+temp/
+
+# ============================
+# Build Files
+# ============================
+dist/
+build/
+
+# ============================
+# SCSS Source Maps
+# ============================
+admin/assets/css/material-dashboard.css.map
+admin/assets/js/material-dashboard.js.map
+
+# ============================
+# Optional Lock Files
+# Uncomment if required
+# ============================
+# composer.lock
+# package-lock.json

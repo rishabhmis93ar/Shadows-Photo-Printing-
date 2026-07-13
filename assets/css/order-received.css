@@ -1,0 +1,169 @@
+.received-oorder-wrapper {
+  padding: 30px 15px;
+}
+
+.received-oorder-wrapper h2 {
+  font-family: "Source Sans Pro";
+  line-height: 40px;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffc205;
+  font-size: 32px;
+  margin-bottom: 2%;
+}
+
+.received-oorder-wrapper p {
+  font-family: "Source Sans Pro";
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffc205;
+  font-size: 16px;
+  margin: 0 0 24px;
+}
+
+.been-received ul li {
+  float: left;
+  width: 33.33%;
+  padding: 1em 1.618em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: #ffc205;
+}
+
+.been-received ul li:nth-child(4) {
+  border: 0;
+  width: 100%;
+  text-align: center;
+  border-top: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.been-received ul li strong {
+  display: block;
+  font-size: 1.387em;
+  text-transform: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.order-details-wrapper h2 {
+  font-family: "Source Sans Pro";
+  line-height: 40px;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffc205;
+  font-size: 32px;
+  margin-bottom: 2%;
+}
+
+section.order-detailss {
+  padding-bottom: 30px;
+}
+
+table.table-order-details {
+  width: 100%;
+}
+
+table.table-order-details th {
+  font-family: "Source Sans Pro";
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-style: normal;
+  color: #ffc205;
+  font-size: 16px;
+  padding: 10px;
+}
+
+table.table-order-details a {
+  font-family: "Source Sans Pro";
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  font-size: 16px;
+}
+
+table.table-order-details strong {
+  font-family: "Source Sans Pro";
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffc205;
+  font-size: 16px;
+}
+
+ul.wc-item-meta li {
+  float: left;
+  width: 33.33%;
+  border-right: 1px dashed rgba(0, 0, 0, 0.2);
+  padding-top: 10px;
+}
+
+ul.wc-item-meta li p {
+  font-family: "Source Sans Pro";
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffc205;
+  font-size: 16px;
+}
+
+td span,
+tr td {
+  font-family: "Source Sans Pro";
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffc205;
+  font-size: 16px;
+}
+
+.billing-address h2 {
+  font-family: "Source Sans Pro";
+  line-height: 40px;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffc205;
+  font-size: 32px;
+  margin-bottom: 2%;
+}
+
+address span,
+address p {
+  font-family: "Source Sans Pro";
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffc205;
+  font-size: 16px;
+  display: block;
+}
+
+section.column-title {
+  padding-bottom: 60px;
+}
+
+.checkout-page footer {
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .been-received ul li {
+    width: 100%;
+  }
+
+  .been-received ul li:nth-child(4) {
+    text-align: left;
+  }
+}
